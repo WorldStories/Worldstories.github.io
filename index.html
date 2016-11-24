@@ -14,7 +14,7 @@
    	  font-family:'MedievalSharp';
    	  background:url(https://c1.staticflickr.com/6/5621/30391969704_00171e04de_b.jpg);
 	  background-size: cover;
-	  background-repeat: no-repeat;
+	  background-repeat: repeat;
    	  margin: 0 20 0 40px;
    	 }
   div {
@@ -91,6 +91,29 @@ small {
       color:black;
       margin: 60px 0;
        }
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 	
 </style>
 </head>
@@ -98,14 +121,12 @@ small {
 </html>
 		
 <body>
-	<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_pinterest"></a>
-<a class="a2a_button_tumblr"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Myths List</a></li>
+  <li><a href="#contact">Sumbit your own Myth</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
 	
 	<h1> World Stories</h1>
@@ -117,6 +138,14 @@ small {
 	
 	<p><a href="greekmyths.html" title= "Greek Myths">Greek Myths</a> </p>	
 
+	<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_pinterest"></a>
+<a class="a2a_button_tumblr"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<html>
+	<head>
+		<title> Irish Myths </title> 
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+<style>
+    body {
+   	  font-family:'MedievalSharp';
+   	  background:url(https://c1.staticflickr.com/6/5621/30391969704_00171e04de_b.jpg);
+	  background-size: cover;
+	  background-repeat: repeat;
+   	  margin: 0 20 0 40px;
+   	 }
+  div {
+  height:200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  position:relative;
+  margin: 40px 0 10px ;
+  border-radius:12px;
+}
+.first {
+	background: url(http://img09.deviantart.net/357d/i/2005/048/2/8/celtic_leaf_transformation_by_foxvox.jpg);
+	background-size:cover;
+	background-repeat: repeat;
+	
+}
+.second  {
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/9c/7b/a7/9c7ba78fb9fc267973ce5e38d9cc39ac.jpg);
+
+}
+.third {
+	background: url(https://static1.squarespace.com/static/53a0e68ae4b0f162d684a17a/t/55108a2ae4b05d3008c7af0d/1427147308372/?format=300w);
+	 
+}
+
+
+h1 {
+ font-family: 'MedievalSharp';
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 70px;
+	text-align: center;
+ 	margin: 20px 20px 20px 20px; 
+ 	color: #781124;
+}
+	h2 {
+	font-family: 'MedievalSharp';
+	font-size: 30 px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 70px;
+	text-align: Center;
+ 	margin: 20px 0 0 20px; 
+ 	color: black;
+	}
+  
+  p 
+  {
+  text-align:center;
+  color: rgba(255,255,255,1);
+  background:black;
+  background:-webkit-linear-gradient(bottom,rgba(0,0,7,6),rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.4));
+  padding: 10px 50px 10px 50px;
+  line-height: 35px;
+  font-size:40px;
+	  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+small {
+  color: white;
+} 
+   input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+      position: 10px 0 0 60px;
+      margin: 60px 0 10px 80px;
+    }
+    
+    input[type="submit"] {
+      background:#D4AF37 ;
+      color:black;
+      margin: 60px 0;
+       }
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #781124;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Myths List</a>
+    <div class="dropdown-content">
+      <a href="greekmyths.html">Greek Myths</a>
+      <a href="#">Irish Myths</a>
+  <li><a href="#contact">Sumbit your own Myth</a></li>
+  <li><a href="#about">About</a></li>
+	    </ul>	    
+
+	<br> 
+<h1> Irish Myths</h1>
+<h2>Irish Myth and legend is filled with warriors, heroes, and gods who survive today in folklore and as parts of the landscape. You may have heard of Fionn mac Cumhaill, the mythical giant who created the Giant's Causeway, or Cú Chulainn, the mythical warrior of Ulster.  </br> Here are a few of the stories of Ireland:</h2>
+
+<div class="first">
+<p>Fionn and the Salmon of Wisdom<br />
+<small>Fionn eats something he shouldn't, and is forced to suck his thumb for eternity...</small>
+</p>
+</div>
+<div class="second">
+<p>How Cú Chulainn got his name<br />
+<small> A young boy kills a dog and is reminded of it for the rest of his life...</small>
+</p>
+</div>
+<div class="third">
+<p>Táin bo Cuailnge or 'The Cattle Raid of Cooley'<br />
+<small>Ireland's epic saga of a couple and their cows...</small>
+</p> 
+</div>
+<div class= "fourth">
+ <input type="myth" placeholder=" My favourite Greek Myth is"><input type="submit">
+</div>
+</body>
+
+</html>
